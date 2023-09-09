@@ -77,9 +77,9 @@ kind: Pod
 metadata:
   name: pod1
   labels:
-    author: sonal
-    env: dev
-    app: webserver
+    author: drapk
+    env: prod
+    app: nginx                
 spec:
  containers:
   - name: c1
